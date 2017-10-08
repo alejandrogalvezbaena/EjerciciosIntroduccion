@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/text_euros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/label_euros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Euros" />
+
+    <EditText
+        android:id="@+id/text_dolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/label_dolares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolares" />
+
+    <RadioGroup
+        android:layout_width="250dp"
+        android:layout_height="87dp" >
+
+        <RadioButton
+            android:id="@+id/radio_euros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Euros a Dolares" />
+
+        <RadioButton
+            android:id="@+id/radio_dolares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dolares a Euros" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtValorCambio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0.852478581" />
+
+    <TextView
+        android:id="@+id/txvValorCambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambiar el valor del cambio" />
+
+    <Button
+        android:id="@+id/boton_convertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERTIR!" />
+
+</LinearLayout>

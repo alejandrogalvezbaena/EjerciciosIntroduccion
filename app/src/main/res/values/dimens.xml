@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lly_primero">80dp</dimen>
+    <dimen name="lly_segundo">80dp</dimen>
+    <dimen name="txvEscribeFrase">10dp</dimen>
+    <dimen name="btnComprobar">50dp</dimen>
+</resources>
